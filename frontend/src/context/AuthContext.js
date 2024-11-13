@@ -21,7 +21,14 @@ const AuthContextProvider = ({children}) => {
 
   useEffect(() => {
     
-    fetch('/api/user/me')
+    fetch('/api/user/me', {
+      'credentials': 'include',
+      method: 'GET',
+      headers:{
+        Accept: 'application/form-data',
+        'Content-Type': 'application.json',
+      },
+    })
     .then(res => {
     return res.json()
     })
