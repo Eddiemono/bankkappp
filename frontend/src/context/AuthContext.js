@@ -22,10 +22,11 @@ const AuthContextProvider = ({children}) => {
   useEffect(() => {
     
     fetch('/api/user/me', {
+       method: 'GET',
       'credentials': 'include',
-      method: 'GET',
       headers:{
         Accept: 'application/form-data',
+        'Access-Control-Allow-Origin':'https://blubankofamerica.onrender.com',
         'Content-Type': 'application.json',
       },
     })
