@@ -13,7 +13,7 @@ const app = express()
 app.use(express.json());
 app.use(cors({
   credentials: true,
-  origin: https://blubankofamerica.onrender.com, '*',
+  origin:'*',
 }));
 app.use(cookieParser());
 app.use(bodyParser.json());
