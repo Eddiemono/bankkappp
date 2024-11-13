@@ -1,0 +1,129 @@
+.home_sekond_grid{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.home_sekond_grid h1{
+  text-align: left;
+  font-size: 25px;
+  /* margin-left: 130px; */
+}
+
+.home_sekond_grid_containers{
+  /* width: 80%; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  /* margin-left: 130px; */
+}
+
+.containers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: white;
+}
+
+.containers img{
+  width: 100%;
+  border-radius: 2px;
+}
+
+.img_container{
+  height: 200px;
+}
+
+.containers h2{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.containers p{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  padding: 10px;
+  height: 50px;
+}
+
+.containers a{
+  width: 100%;
+  padding: 5px 10px;
+  text-align: left;
+  border: none;
+  color: red;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1024px){
+  .home_sekond_grid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .home_sekond_grid h1{
+    text-align: left;
+    font-size: 25px;
+  }
+  
+  .home_sekond_grid_containers{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: white;
+  }
+  
+  .containers img{
+    width: 100%;
+    border-radius: 2px;
+  }
+  
+  .containers h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+  }
+  
+  .containers p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    padding: 10px;
+    height: 50px;
+  }
+  
+  .containers a{
+    width: 100%;
+    padding: 5px 10px;
+    text-align: left;
+    border: none;
+    color: red;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

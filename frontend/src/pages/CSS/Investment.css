@@ -1,0 +1,272 @@
+.investment{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 0;
+  border-bottom: 25px solid rgb(131, 131, 245);
+}
+
+.investment_flex{
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: start; */
+}
+
+.investment_left{
+  display: flex;
+  flex-direction: column;
+  border-right: 25px solid rgb(131, 131, 245);
+  /* height: 100vh; */
+  width: 30%;
+}
+
+.investment_left img{
+  width: 90%;
+  margin-left: 20px;
+}
+
+.security{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+}
+
+.security img{
+  width: 100%;
+  margin-left: 5px;
+  object-fit: cover;
+}
+
+.security p{
+  width: 100%;
+}
+
+.investment_left a{
+  text-decoration: none;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background: rgb(131, 131, 245);
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+
+.investment_left h2{
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.investment_left p{
+  font-size: 12px;
+  margin-top: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.investment_left button{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background: rgb(131, 131, 245);
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.investment_right{
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  width: 100%;
+  font-size: 12px;
+  margin-left: 60px;
+}
+
+.investment_right h3{
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.investment_right_contents{
+  display: flex;
+  flex-direction: column;
+}
+
+.investment_right_contents p{
+  font-size: 12px;
+  margin-top: -5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.investment_right_contents h2{
+  width: 100%;
+  font-size: 18px;
+  color: rgb(7, 7, 58);
+  
+}
+
+.investment_right_contents .benefit{
+  width: 100%;
+  /* color: red; */
+  margin-top: -16px;
+}
+
+@media(max-width: 1024px){
+  .investment{
+    width: 100%;
+    height: 100vh;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 0;
+    border-bottom: 5px solid rgb(131, 131, 245);
+    margin-bottom: -20px;
+  }
+  
+  .investment_flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 5px; */
+  }
+  
+  .investment_left{
+    display: flex;
+    flex-direction: column;
+    border-right: 5px solid rgb(131, 131, 245);
+    height: 100vh;
+    max-height: 500px;
+    width: 100%;
+    max-width: 100px
+  }
+  
+  .investment_left img{
+    width: 90%;
+    margin-left: 5px;
+  }
+
+  .security{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* .security p{
+    text-align: start;
+    color: red;
+  } */
+
+  .security img{
+    width: 100%;
+    margin-left: 5px;
+    object-fit: cover;
+  }
+  
+  .investment_left a{
+    text-decoration: none;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    background: rgb(131, 131, 245);
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+
+  .investment_left h2{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .investment_left p{
+    font-size: 5px;
+    margin-top: 5px;
+  }
+  
+  .investment_left button{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    background: rgb(131, 131, 245);
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  .investment_right{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .investment_right h3{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .investment_right_contents{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .investment_right_contents p{
+    font-size: 5px;
+    margin-top: -5px;
+  }
+
+  .investment_right_contents h2{  
+    width: 100%;
+    font-size: 8px;
+    color: rgb(7, 7, 58);
+    
+  }
+
+  .investment_right_contents .benefit{
+    width: 100%;
+    /* color: red; */
+    margin-top: -16px;
+  }
+}
