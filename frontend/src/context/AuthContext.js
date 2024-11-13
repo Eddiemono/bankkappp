@@ -26,7 +26,6 @@ const AuthContextProvider = ({children}) => {
       'credentials': 'include',
       headers:{
         Accept: 'application/form-data',
-        'Access-Control-Allow-Origin':'https://blubankofamerica.onrender.com',
         'Content-Type': 'application.json',
       },
     })
